@@ -1,4 +1,5 @@
 //Meteor.subscribe('recipes');
+//this page should be recipes.js
 
 Template.Recipes.onCreated(function() {
   var self = this;

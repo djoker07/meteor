@@ -6,7 +6,7 @@
         {{> quickForm collection="Recipes" id=updateRecipeId type="update"
             doc=this autosave=true}}
     {{else}}
-        <p> {{desc}} </p>
+      
         <p>
           {{#each ingredients}}
             <span class="ingredient"> {{name}} - {{amount}} </span>
